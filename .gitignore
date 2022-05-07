@@ -1,7 +1,3 @@
-!build
-build/*
-!build/CMakeCache.txt
-
 .vscode/
 .vs/
 
@@ -12,6 +8,7 @@ build/*
 gradle/
 gradlew*
 local.properties
+build/
 support/.cxx
 
 bin/
@@ -32,6 +29,7 @@ cmake_install.cmake
 CPack*.cmake
 fmt-*.cmake
 CTestTestfile.cmake
+CMakeCache.txt
 CMakeFiles
 FMT.build
 Makefile
