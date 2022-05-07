@@ -8,9 +8,9 @@
 gradle/
 gradlew*
 local.properties
-!build
-build/*
-!build/CMakeCache.txt
+!/build
+/build/*
+!/build/CMakeCache.txt
 support/.cxx
 
 bin/
